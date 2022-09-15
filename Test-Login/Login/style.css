@@ -1,0 +1,41 @@
+body {
+  background-color: #3d597c;
+}
+
+.form {
+  margin-top: 170px;
+}
+
+.form-signin {
+  max-width: 400px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+input[type="submit"] {
+  font-size: 0.9em;
+  color: #fff;
+  background: #25316d;
+  outline: none;
+  border: 1px solid #25316d;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.9em;
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 10px 0;
+  letter-spacing: 4px;
+}
+
+input[type="submit"]:hover {
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+  background: #5f6f94;
+  border: 1px solid #5f6f94;
+}
